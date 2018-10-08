@@ -1,5 +1,5 @@
 import sys
-f = open('C:/Users/User/Desktop/Sherlock.txt', mode = 'r')
+f = open(sys.argv[1], mode = 'r')
 s = f.read().lower()
 f.close()
 
